@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## The SOUL programming language and API
 
-You can use the [editor on GitHub](https://github.com/cesaref/pages/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+SOUL (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To read more about the project, please have a look through the files in the [docs](./docs/) folder:
 
-### Markdown
+- [Project Overview](./docs/SOUL_Overview.md)
+- [FAQ](./docs/SOUL_FAQ.md)
+- [Syntax Guide](./docs/SOUL_Language.md)
+- [Code Examples](./examples) (or try them live in your browser [here!](https://soul.dev/examples))
+- [Command-line tools](./docs/SOUL_Command.md)
+- [SOUL Patch format](./docs/SOUL_Patch_Format.md) - an overview of the SOUL plugin format
+- [SOUL Patch API](./include/soul/patch)
+- [C++ modules](./source/modules)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+License and legal docs are here:
 
-```markdown
-Syntax highlighted code block
+- [SOUL LICENSE](./LICENSE.md)
+- [SOUL END-USER LICENSE AGREEMENT](./SOUL-EULA.md)
+- [SOUL PRIVACY POLICY](./SOUL-PRIVACY-POLICY.md)
 
-# Header 1
-## Header 2
-### Header 3
+You may also want to visit:
 
-- Bulleted
-- List
+- The official website at [soul.dev](https://soul.dev)
+- Try SOUL in your browser using web-audio at [soul.dev/lab](https://soul.dev/lab)
+- Jules' [SOUL announcement](https://youtu.be/-GhleKNaPdk?t=910) keynote talk at ADC2018.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cesaref/pages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+SOUL was created at [ROLI](https://roli.com) by the [JUCE](https://juce.com) team.
